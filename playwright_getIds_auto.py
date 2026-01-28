@@ -43,14 +43,19 @@ TARGET_URL = "https://www.naver.com"
 AUTH_FILE = "auth.json"
 TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803?tab=popular"
 
-START_INDEX = 100
-END_INDEX = 199
+# 환경변수로 범위 설정 (기본값: 0-100)
+START_INDEX = int(os.environ.get("START", 0))
+END_INDEX = int(os.environ.get("END", 100))
+WORKER_ID = os.environ.get("WORKER", "0")
+
 BATCH_SIZE = 100
 MIN_BATCH_WAIT = 0
 MAX_BATCH_WAIT = 5
 # URL에서 카페 ID 추출 (cafes/ 뒤의 숫자)
 MENU_ID = TARGET_CAFE_MENU_URL.split("cafes/")[1].split("?")[0]
-CSV_FILENAME = f"collected_data_menu{MENU_ID}.csv"
+CSV_FILENAME = f"collected_data_menu{MENU_ID}_worker{WORKER_ID}.csv"
+
+print(f"[Worker {WORKER_ID}] 범위: {START_INDEX} ~ {END_INDEX}, 저장: {CSV_FILENAME}")
 
 
 def extract_naver_id(html_content):
@@ -158,6 +163,10 @@ def process_post(page, index, is_first_post=True):
             post_selector = ".PopularArticleList .ListItem:not(.adtype_infinity)"
 
             # 해당 인덱스의 게시글이 로드될 때까지 스크롤
+            prev_count = 0
+            no_change_count = 0
+            max_no_change = 20  # 20회 연속 변화 없으면 종료
+
             while True:
                 current_count = page.locator(post_selector).count()
                 print(f"현재 로드된 게시글 수: {current_count}, 필요한 인덱스: {index}")
@@ -165,6 +174,16 @@ def process_post(page, index, is_first_post=True):
                 if current_count > index:
                     # 원하는 게시글이 로드됨
                     break
+
+                # 게시글 수 변화 체크
+                if current_count == prev_count:
+                    no_change_count += 1
+                    if no_change_count >= max_no_change:
+                        print(f"[ERROR] 게시글 수가 {current_count}개에서 더 이상 증가하지 않음. 인덱스 {index}는 존재하지 않습니다.")
+                        return None
+                else:
+                    no_change_count = 0
+                prev_count = current_count
 
                 # 아직 로드 안됨 -> 페이지 끝까지 스크롤
                 for _ in range(4):  # 3번 스크롤
@@ -464,7 +483,7 @@ def run_automation():
             iphone = p.devices["iPhone 14 Pro Max"]
 
             browser = p.chromium.launch(
-                headless=False,
+                headless=True,
                 args=[
                     "--disable-blink-features=AutomationControlled",
                     "--disable-infobars",
