@@ -44,7 +44,7 @@ AUTH_FILE = "auth.json"
 TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803?tab=popular"
 
 START_INDEX = 0
-END_INDEX = 1000
+END_INDEX = 500
 BATCH_SIZE = 100
 MIN_BATCH_WAIT = 0
 MAX_BATCH_WAIT = 5
