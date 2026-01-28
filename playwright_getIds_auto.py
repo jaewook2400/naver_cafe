@@ -389,7 +389,7 @@ def process_post(page, index, is_first_post=True):
             human_click(page, message_btn)
             print("쪽지 보내기 페이지로 이동합니다.")
 
-            page.wait_for_selector("onload", timeout=5000)
+            page.wait_for_load_state("networkidle")
             random_sleep(0.5, 1)
             # HTML에서 ID 추출
             html_content = page.content()

@@ -1,0 +1,2047 @@
+[Worker 3] 범위: 90 ~ 135, 저장: collected_data_menu21771803_worker3.csv
+
+==================================================
+📦 배치 1/1 시작
+   처리 범위: 90 ~ 134
+==================================================
+저장된 로그인 정보를 불러와 브라우저를 실행합니다...
+✅ https://www.naver.com 접속 성공! (로그인된 상태)
+2.80초 동안 대기
+
+[91번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 90
+0.32초 동안 대기
+스크롤 완료
+0.57초 동안 대기
+0.26초 동안 대기
+0.14초 동안 대기
+0.70초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.34초 동안 대기
+0.55초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950566?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950566?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 솔직히 놀랬습니다
+  닉네임: 두면l아오닉5I경기
+  작성시간: 2026.01.25. 11:01
+  조회수: 조회 2,308
+0.46초 동안 대기
+0.56초 동안 대기
+0.16초 동안 대기
+0.11초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.06초 동안 대기
+  작성자 레벨: 준회원
+0.54초 동안 대기
+0.21초 동안 대기
+0.07초 동안 대기
+0.51초 동안 대기
+0.60초 동안 대기
+0.13초 동안 대기
+0.07초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.70초 동안 대기
+추출된 닉네임: pason_best
+추출 성공! ID: pason_best
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950566?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.87초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.1초 대기...
+
+[92번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.20초 동안 대기
+
+[92번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 91
+0.46초 동안 대기
+스크롤 완료
+0.42초 동안 대기
+0.30초 동안 대기
+0.08초 동안 대기
+0.64초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.48초 동안 대기
+0.90초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950559?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950559?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: Ev6 300가까이 하네요
+  닉네임: 102동 203호 아재
+  작성시간: 2026.01.25. 10:52
+  조회수: 조회 1,382
+0.26초 동안 대기
+0.59초 동안 대기
+0.17초 동안 대기
+0.12초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.25초 동안 대기
+  작성자 레벨: 준회원
+0.70초 동안 대기
+0.30초 동안 대기
+0.09초 동안 대기
+0.45초 동안 대기
+0.66초 동안 대기
+0.18초 동안 대기
+0.06초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.68초 동안 대기
+추출된 닉네임: imjongjin
+추출 성공! ID: imjongjin
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950559?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.74초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.6초 대기...
+
+[93번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.32초 동안 대기
+
+[93번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 92
+0.38초 동안 대기
+스크롤 완료
+0.45초 동안 대기
+0.27초 동안 대기
+0.11초 동안 대기
+0.59초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950548?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950548?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 아파트에서 충전하시는분들 대략 요금 얼마나 나오시나요?
+  닉네임: 인천I니로I스플리트
+  작성시간: 2026.01.25. 10:44
+  조회수: 조회 1,292
+0.39초 동안 대기
+0.66초 동안 대기
+0.22초 동안 대기
+0.15초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.58초 동안 대기
+  작성자 레벨: 신입
+0.55초 동안 대기
+0.20초 동안 대기
+0.05초 동안 대기
+0.33초 동안 대기
+0.49초 동안 대기
+0.20초 동안 대기
+0.08초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.90초 동안 대기
+추출된 닉네임: wolfraion
+추출 성공! ID: wolfraion
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950548?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.90초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.2초 대기...
+
+[94번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.46초 동안 대기
+
+[94번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 93
+0.34초 동안 대기
+스크롤 완료
+0.42초 동안 대기
+0.14초 동안 대기
+0.07초 동안 대기
+0.69초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950537?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950537?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 엔카 스포티지 신형가솔린 가격이...
+  닉네임: 블라스트I광주
+  작성시간: 2026.01.25. 10:23
+  조회수: 조회 6,157
+0.35초 동안 대기
+0.37초 동안 대기
+0.12초 동안 대기
+0.10초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.07초 동안 대기
+  작성자 레벨: 준회원
+0.36초 동안 대기
+0.11초 동안 대기
+0.13초 동안 대기
+0.52초 동안 대기
+0.51초 동안 대기
+0.16초 동안 대기
+0.05초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.95초 동안 대기
+추출된 닉네임: ohbk78
+추출 성공! ID: ohbk78
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950537?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.76초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.8초 대기...
+
+[95번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.26초 동안 대기
+
+[95번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 94
+0.40초 동안 대기
+스크롤 완료
+0.34초 동안 대기
+0.12초 동안 대기
+0.14초 동안 대기
+0.53초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950515?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950515?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 모델3 vs ev6
+  닉네임: 무등산고영희l전남l
+  작성시간: 2026.01.25. 09:15
+  조회수: 조회 859
+0.22초 동안 대기
+0.64초 동안 대기
+0.12초 동안 대기
+0.09초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.80초 동안 대기
+  작성자 레벨: 신입
+0.57초 동안 대기
+0.12초 동안 대기
+0.12초 동안 대기
+0.60초 동안 대기
+0.62초 동안 대기
+0.17초 동안 대기
+0.15초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.65초 동안 대기
+추출된 닉네임: cokepl
+추출 성공! ID: cokepl
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950515?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.92초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.3초 대기...
+
+[96번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.13초 동안 대기
+
+[96번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 95
+0.38초 동안 대기
+스크롤 완료
+0.30초 동안 대기
+0.11초 동안 대기
+0.14초 동안 대기
+0.65초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.44초 동안 대기
+0.95초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950492?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950492?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: ICCU 당첨의 고통ㅠ
+  닉네임: 마크6I아이오닉6I서울
+  작성시간: 2026.01.25. 08:37
+  조회수: 조회 1,216
+0.50초 동안 대기
+0.66초 동안 대기
+0.27초 동안 대기
+0.07초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.55초 동안 대기
+  작성자 레벨: 준회원
+0.55초 동안 대기
+0.30초 동안 대기
+0.08초 동안 대기
+0.57초 동안 대기
+0.61초 동안 대기
+0.30초 동안 대기
+0.13초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.70초 동안 대기
+추출된 닉네임: hanbok6
+추출 성공! ID: hanbok6
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950492?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.99초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.8초 대기...
+
+[97번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.45초 동안 대기
+
+[97번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 96
+0.47초 동안 대기
+스크롤 완료
+0.49초 동안 대기
+0.17초 동안 대기
+0.08초 동안 대기
+0.89초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950484?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950484?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 아이오닉5, EV4 시승기
+  닉네임: 꼬꼬달I대구
+  작성시간: 2026.01.25. 08:21
+  조회수: 조회 4,648
+0.50초 동안 대기
+0.51초 동안 대기
+0.26초 동안 대기
+0.08초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.85초 동안 대기
+  작성자 레벨: 준회원
+0.36초 동안 대기
+0.19초 동안 대기
+0.10초 동안 대기
+0.56초 동안 대기
+0.55초 동안 대기
+0.17초 동안 대기
+0.15초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.89초 동안 대기
+추출된 닉네임: dal3356
+추출 성공! ID: dal3356
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950484?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.97초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.8초 대기...
+
+[98번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.02초 동안 대기
+
+[98번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 97
+0.47초 동안 대기
+스크롤 완료
+0.31초 동안 대기
+0.17초 동안 대기
+0.10초 동안 대기
+0.52초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.42초 동안 대기
+0.57초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950402?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950402?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 고민됩니다 ㅠㅠ 씨라7 모델y ev5
+  닉네임: 칸웨이l씨라7l부산
+  작성시간: 2026.01.25. 01:25
+  조회수: 조회 789
+0.32초 동안 대기
+0.66초 동안 대기
+0.28초 동안 대기
+0.13초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.27초 동안 대기
+  작성자 레벨: 준회원
+0.60초 동안 대기
+0.30초 동안 대기
+0.06초 동안 대기
+0.43초 동안 대기
+0.65초 동안 대기
+0.15초 동안 대기
+0.11초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.97초 동안 대기
+추출된 닉네임: qkrtjdgh175
+추출 성공! ID: qkrtjdgh175
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950402?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.60초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.7초 대기...
+
+[99번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.19초 동안 대기
+
+[99번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 98
+0.48초 동안 대기
+스크롤 완료
+0.53초 동안 대기
+0.19초 동안 대기
+0.09초 동안 대기
+0.66초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.47초 동안 대기
+0.92초 동안 대기
+  [WARNING] 게시글 제목 요소를 찾을 수 없음
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950386?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950386?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  닉네임 추출 실패: Locator.inner_text: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".nick .end_user_nick").first
+
+  작성 시간 추출 실패: Locator.inner_text: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".date").first
+
+  조회수 추출 실패: Locator.inner_text: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".no").first
+
+  제목: 게시판을 구독했습니다.
+  닉네임: 
+  작성시간: 
+  조회수: 
+0.47초 동안 대기
+0.38초 동안 대기
+  [Human Click] 실패: Locator.bounding_box: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".user_wrap .info").locator("a").first
+
+프로필 클릭 실패: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".user_wrap .info").locator("a").first
+
+------------------------------
+⏳ 다음 게시글까지 2.2초 대기...
+
+[100번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.64초 동안 대기
+
+[100번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 99
+0.45초 동안 대기
+스크롤 완료
+0.64초 동안 대기
+0.29초 동안 대기
+0.13초 동안 대기
+0.74초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950175?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950175?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 전기차 할인 대란 중 가장 가성비는 뭐였을까요?
+  닉네임: 봄lGV60l경북
+  작성시간: 2026.01.24. 20:19
+  조회수: 조회 4,594
+0.38초 동안 대기
+0.34초 동안 대기
+0.12초 동안 대기
+0.13초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.72초 동안 대기
+  작성자 레벨: 준회원
+0.63초 동안 대기
+0.26초 동안 대기
+0.08초 동안 대기
+0.35초 동안 대기
+0.45초 동안 대기
+0.21초 동안 대기
+0.11초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.88초 동안 대기
+추출된 닉네임: donal0830
+추출 성공! ID: donal0830
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950175?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.78초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.2초 대기...
+
+[101번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.21초 동안 대기
+
+[101번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 100
+0.43초 동안 대기
+스크롤 완료
+0.60초 동안 대기
+0.30초 동안 대기
+0.05초 동안 대기
+0.97초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950135?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950135?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 기아가 안팔리긴 하나보네요
+  닉네임: Ev3예비오우너l제천
+  작성시간: 2026.01.24. 19:30
+  조회수: 조회 4,206
+0.26초 동안 대기
+0.57초 동안 대기
+0.20초 동안 대기
+0.08초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.73초 동안 대기
+  작성자 레벨: 준회원
+0.44초 동안 대기
+0.29초 동안 대기
+0.09초 동안 대기
+0.48초 동안 대기
+0.58초 동안 대기
+0.15초 동안 대기
+0.09초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.68초 동안 대기
+추출된 닉네임: oo78
+추출 성공! ID: oo78
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1950135?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.70초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.4초 대기...
+
+[102번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.91초 동안 대기
+
+[102번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 101
+0.41초 동안 대기
+스크롤 완료
+0.56초 동안 대기
+  [Human Click] 실패: Locator.bounding_box: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".PopularArticleList .ListItem:not(.adtype_infinity)").nth(101).locator("a").first
+
+게시글 클릭 실패: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".PopularArticleList .ListItem:not(.adtype_infinity)").nth(101).locator("a").first
+
+------------------------------
+⏳ 다음 게시글까지 2.2초 대기...
+
+[103번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.22초 동안 대기
+
+[103번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 102
+0.35초 동안 대기
+스크롤 완료
+0.33초 동안 대기
+0.19초 동안 대기
+0.05초 동안 대기
+0.92초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.46초 동안 대기
+0.79초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949966?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949966?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: [질문] 아파트 충전기가 계약종료로 다른 사업자 충전기로 설치되었는데요.
+  닉네임: 데이즈lEV6I경기
+  작성시간: 2026.01.24. 14:52
+  조회수: 조회 7,264
+0.24초 동안 대기
+0.47초 동안 대기
+0.25초 동안 대기
+0.09초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.11초 동안 대기
+  작성자 레벨: 준회원
+0.61초 동안 대기
+0.29초 동안 대기
+0.06초 동안 대기
+0.44초 동안 대기
+0.56초 동안 대기
+0.27초 동안 대기
+0.09초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.73초 동안 대기
+추출된 닉네임: bloodopen
+추출 성공! ID: bloodopen
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949966?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.54초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.9초 대기...
+
+[104번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.54초 동안 대기
+
+[104번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 103
+0.46초 동안 대기
+스크롤 완료
+0.68초 동안 대기
+0.15초 동안 대기
+0.10초 동안 대기
+0.63초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949952?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949952?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 타이칸2대+아이오닉9 오너의 씨라이언7 출고기..(모델Y 주니퍼 포기)
+  닉네임: 듑l타이칸911김포
+  작성시간: 2026.01.24. 14:23
+  조회수: 조회 1.5만
+0.31초 동안 대기
+0.47초 동안 대기
+0.27초 동안 대기
+0.10초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.48초 동안 대기
+  작성자 레벨: 우수회원
+0.35초 동안 대기
+0.20초 동안 대기
+0.07초 동안 대기
+0.32초 동안 대기
+0.58초 동안 대기
+0.26초 동안 대기
+0.09초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.76초 동안 대기
+추출된 닉네임: adsl55
+추출 성공! ID: adsl55
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949952?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.68초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.3초 대기...
+
+[105번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.47초 동안 대기
+
+[105번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 104
+0.47초 동안 대기
+스크롤 완료
+0.45초 동안 대기
+0.14초 동안 대기
+0.14초 동안 대기
+0.74초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.42초 동안 대기
+0.96초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949898?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949898?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: EV5 가격 내렸으니 매력있을까요?
+  닉네임: 태평아빠I경북
+  작성시간: 2026.01.24. 13:24
+  조회수: 조회 1,969
+0.50초 동안 대기
+0.65초 동안 대기
+0.29초 동안 대기
+0.10초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.29초 동안 대기
+  작성자 레벨: 신입
+0.66초 동안 대기
+0.28초 동안 대기
+0.13초 동안 대기
+0.46초 동안 대기
+0.37초 동안 대기
+0.11초 동안 대기
+0.11초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.73초 동안 대기
+추출된 닉네임: oring2
+추출 성공! ID: oring2
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949898?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.80초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.4초 대기...
+
+[106번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.60초 동안 대기
+
+[106번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 105
+0.48초 동안 대기
+스크롤 완료
+0.66초 동안 대기
+0.30초 동안 대기
+0.14초 동안 대기
+0.93초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.30초 동안 대기
+0.68초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949850?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949850?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 제목이 자극적이었나 봅니다.
+  닉네임: 절제i미정i경북
+  작성시간: 2026.01.24. 12:23
+  조회수: 조회 2,246
+0.45초 동안 대기
+0.39초 동안 대기
+0.11초 동안 대기
+0.09초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.83초 동안 대기
+  작성자 레벨: 준회원
+0.61초 동안 대기
+0.16초 동안 대기
+0.09초 동안 대기
+0.39초 동안 대기
+0.51초 동안 대기
+0.24초 동안 대기
+0.10초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.80초 동안 대기
+추출된 닉네임: onto78
+추출 성공! ID: onto78
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949850?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.67초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.0초 대기...
+
+[107번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.32초 동안 대기
+
+[107번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 106
+0.43초 동안 대기
+스크롤 완료
+0.68초 동안 대기
+0.26초 동안 대기
+0.06초 동안 대기
+0.66초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.47초 동안 대기
+0.86초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949845?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949845?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: [질문] 레이ev 면 충분할까요? (두번째질문)
+  닉네임: 오직한길l경기
+  작성시간: 2026.01.24. 12:08
+  조회수: 조회 1,119
+0.29초 동안 대기
+0.47초 동안 대기
+0.20초 동안 대기
+0.06초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.98초 동안 대기
+  작성자 레벨: 준회원
+0.35초 동안 대기
+0.11초 동안 대기
+0.10초 동안 대기
+0.55초 동안 대기
+0.58초 동안 대기
+0.15초 동안 대기
+0.07초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.75초 동안 대기
+추출된 닉네임: leejukwon
+추출 성공! ID: leejukwon
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949845?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.71초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.6초 대기...
+
+[108번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.03초 동안 대기
+
+[108번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 107
+0.45초 동안 대기
+스크롤 완료
+0.39초 동안 대기
+0.12초 동안 대기
+0.12초 동안 대기
+0.68초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.32초 동안 대기
+0.63초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949833?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949833?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 레이 ev타고 다니면서 느낀점
+  닉네임: 스카이훅I레이EVI수원
+  작성시간: 2026.01.24. 11:42
+  조회수: 조회 1,667
+0.45초 동안 대기
+0.54초 동안 대기
+0.25초 동안 대기
+0.13초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.65초 동안 대기
+  작성자 레벨: 신입
+0.61초 동안 대기
+0.22초 동안 대기
+0.12초 동안 대기
+0.33초 동안 대기
+0.59초 동안 대기
+0.12초 동안 대기
+0.08초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.72초 동안 대기
+추출된 닉네임: starjail
+추출 성공! ID: starjail
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949833?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.51초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.2초 대기...
+
+[109번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.79초 동안 대기
+
+[109번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 108
+0.44초 동안 대기
+스크롤 완료
+0.59초 동안 대기
+0.22초 동안 대기
+0.10초 동안 대기
+0.52초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.30초 동안 대기
+0.93초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949832?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949832?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 테슬라, 한국 FSD 공식 지원 국가 추가...전 세계 8개 국가로 확대
+  닉네임: 해I모y아5I서울
+  작성시간: 2026.01.24. 11:41
+  조회수: 조회 3,135
+0.29초 동안 대기
+0.37초 동안 대기
+0.20초 동안 대기
+0.15초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.93초 동안 대기
+  작성자 레벨: 준회원
+0.51초 동안 대기
+0.12초 동안 대기
+0.10초 동안 대기
+0.51초 동안 대기
+0.45초 동안 대기
+0.28초 동안 대기
+0.05초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.66초 동안 대기
+추출된 닉네임: hwajakim2
+추출 성공! ID: hwajakim2
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949832?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.66초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.4초 대기...
+
+[110번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.15초 동안 대기
+
+[110번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 109
+0.49초 동안 대기
+스크롤 완료
+0.57초 동안 대기
+0.23초 동안 대기
+0.07초 동안 대기
+0.82초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.35초 동안 대기
+0.67초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949831?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949831?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: [질문] Ev3 재고차 3월까지 있을까요?
+  닉네임: 빠방이I아이오닉I양주
+  작성시간: 2026.01.24. 11:41
+  조회수: 조회 1,274
+0.43초 동안 대기
+0.55초 동안 대기
+0.24초 동안 대기
+0.10초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.83초 동안 대기
+  작성자 레벨: 준회원
+0.46초 동안 대기
+0.21초 동안 대기
+0.06초 동안 대기
+0.36초 동안 대기
+0.42초 동안 대기
+0.10초 동안 대기
+0.09초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.86초 동안 대기
+추출된 닉네임: dark2127
+추출 성공! ID: dark2127
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949831?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.97초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 3.0초 대기...
+
+[111번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.30초 동안 대기
+
+[111번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 110
+0.30초 동안 대기
+스크롤 완료
+0.48초 동안 대기
+0.29초 동안 대기
+0.07초 동안 대기
+0.88초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.41초 동안 대기
+0.75초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949818?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949818?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 빈패스트 탑승중인데 설계 뭐죠;;
+  닉네임: 리토도I대전
+  작성시간: 2026.01.24. 11:25
+  조회수: 조회 3,560
+0.37초 동안 대기
+0.37초 동안 대기
+0.10초 동안 대기
+0.09초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.55초 동안 대기
+  작성자 레벨: 준회원
+0.69초 동안 대기
+0.19초 동안 대기
+0.08초 동안 대기
+0.42초 동안 대기
+0.45초 동안 대기
+0.21초 동안 대기
+0.05초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.98초 동안 대기
+추출된 닉네임: leehooin
+추출 성공! ID: leehooin
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949818?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.94초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.1초 대기...
+
+[112번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.92초 동안 대기
+
+[112번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 111
+0.37초 동안 대기
+스크롤 완료
+0.63초 동안 대기
+0.10초 동안 대기
+0.14초 동안 대기
+0.51초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.39초 동안 대기
+0.84초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949810?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949810?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 경남 창원, 고민 끝에 전기차 계약 전부 취소했습니다
+  닉네임: 이랑날
+  작성시간: 2026.01.24. 11:18
+  조회수: 조회 1,928
+0.28초 동안 대기
+0.47초 동안 대기
+0.30초 동안 대기
+0.14초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.60초 동안 대기
+  작성자 레벨: 준회원
+0.49초 동안 대기
+0.18초 동안 대기
+0.07초 동안 대기
+0.37초 동안 대기
+0.41초 동안 대기
+0.18초 동안 대기
+0.06초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.77초 동안 대기
+추출된 닉네임: wjddbs4989
+추출 성공! ID: wjddbs4989
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949810?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.79초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.1초 대기...
+
+[113번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.07초 동안 대기
+
+[113번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 112
+0.34초 동안 대기
+스크롤 완료
+0.61초 동안 대기
+0.13초 동안 대기
+0.11초 동안 대기
+0.90초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.32초 동안 대기
+0.51초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949799?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949799?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 테슬라, 무료 오토파일럿 중단…"유료 FSD 판매 포석"
+  닉네임: 해I모y아5I서울
+  작성시간: 2026.01.24. 11:02
+  조회수: 조회 1,658
+0.43초 동안 대기
+0.51초 동안 대기
+0.30초 동안 대기
+0.13초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.21초 동안 대기
+  작성자 레벨: 준회원
+0.47초 동안 대기
+0.28초 동안 대기
+0.10초 동안 대기
+0.50초 동안 대기
+0.58초 동안 대기
+0.22초 동안 대기
+0.08초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.88초 동안 대기
+추출된 닉네임: hwajakim2
+추출 성공! ID: hwajakim2
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949799?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.60초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.2초 대기...
+
+[114번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.33초 동안 대기
+
+[114번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 113
+0.35초 동안 대기
+스크롤 완료
+0.55초 동안 대기
+0.14초 동안 대기
+0.06초 동안 대기
+0.62초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.32초 동안 대기
+0.51초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949789?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949789?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 경남 보조금이 정상이아닌데요??
+  닉네임: 유봉이I볼트EUVl창원
+  작성시간: 2026.01.24. 10:54
+  조회수: 조회 2,470
+0.49초 동안 대기
+0.58초 동안 대기
+0.13초 동안 대기
+0.05초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.73초 동안 대기
+  작성자 레벨: 정회원
+0.48초 동안 대기
+0.18초 동안 대기
+0.10초 동안 대기
+0.45초 동안 대기
+0.50초 동안 대기
+0.16초 동안 대기
+0.08초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.86초 동안 대기
+추출된 닉네임: didtlfwh
+추출 성공! ID: didtlfwh
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949789?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.54초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.5초 대기...
+
+[115번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.56초 동안 대기
+
+[115번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 114
+0.49초 동안 대기
+스크롤 완료
+0.38초 동안 대기
+0.11초 동안 대기
+0.06초 동안 대기
+0.61초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.48초 동안 대기
+0.91초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949787?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949787?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 전기차보조금 도대체 왜 경남만 줄어든거죠?
+  닉네임: 각도기I경남
+  작성시간: 2026.01.24. 10:53
+  조회수: 조회 1,119
+0.33초 동안 대기
+0.45초 동안 대기
+0.20초 동안 대기
+0.14초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.36초 동안 대기
+  작성자 레벨: 준회원
+0.34초 동안 대기
+0.18초 동안 대기
+0.07초 동안 대기
+0.30초 동안 대기
+0.66초 동안 대기
+0.29초 동안 대기
+0.14초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.84초 동안 대기
+추출된 닉네임: lost0730
+추출 성공! ID: lost0730
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949787?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.58초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.3초 대기...
+
+[116번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.21초 동안 대기
+
+[116번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 115
+0.39초 동안 대기
+스크롤 완료
+0.59초 동안 대기
+0.21초 동안 대기
+0.14초 동안 대기
+0.79초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.47초 동안 대기
+0.62초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949784?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949784?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: [질문] ev6 할인 이렇게 보면 되는거 맞나요?
+  닉네임: 여비I아9I부산
+  작성시간: 2026.01.24. 10:42
+  조회수: 조회 1,715
+0.30초 동안 대기
+0.50초 동안 대기
+0.27초 동안 대기
+0.11초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.67초 동안 대기
+  작성자 레벨: 준회원
+0.33초 동안 대기
+0.12초 동안 대기
+0.13초 동안 대기
+0.44초 동안 대기
+0.32초 동안 대기
+0.28초 동안 대기
+0.09초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.93초 동안 대기
+추출된 닉네임: winpro80
+추출 성공! ID: winpro80
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949784?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.61초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.7초 대기...
+
+[117번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.38초 동안 대기
+
+[117번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 116
+0.40초 동안 대기
+스크롤 완료
+0.55초 동안 대기
+0.29초 동안 대기
+0.09초 동안 대기
+0.54초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.39초 동안 대기
+0.66초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949774?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949774?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 26년하반기 부산경남 보조금
+  닉네임: 동래촌놈lEV6l경남
+  작성시간: 2026.01.24. 10:27
+  조회수: 조회 1,183
+0.31초 동안 대기
+0.42초 동안 대기
+0.13초 동안 대기
+0.05초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.75초 동안 대기
+  작성자 레벨: 준회원
+0.52초 동안 대기
+0.23초 동안 대기
+0.10초 동안 대기
+0.60초 동안 대기
+0.51초 동안 대기
+0.22초 동안 대기
+0.14초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.81초 동안 대기
+추출된 닉네임: dlawhdtn84
+추출 성공! ID: dlawhdtn84
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949774?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.63초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.6초 대기...
+
+[118번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.80초 동안 대기
+
+[118번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 117
+0.48초 동안 대기
+스크롤 완료
+0.44초 동안 대기
+0.12초 동안 대기
+0.15초 동안 대기
+0.83초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949735?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949735?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 울산도 지원금 망했네요
+  닉네임: 사마율l울산
+  작성시간: 2026.01.24. 09:54
+  조회수: 조회 1,930
+0.31초 동안 대기
+0.54초 동안 대기
+0.21초 동안 대기
+0.09초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.45초 동안 대기
+  작성자 레벨: 신입
+0.39초 동안 대기
+0.11초 동안 대기
+0.08초 동안 대기
+0.50초 동안 대기
+0.67초 동안 대기
+0.25초 동안 대기
+0.05초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.62초 동안 대기
+추출된 닉네임: avisra
+추출 성공! ID: avisra
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949735?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.85초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.1초 대기...
+
+[119번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.99초 동안 대기
+
+[119번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 118
+0.37초 동안 대기
+스크롤 완료
+0.52초 동안 대기
+0.21초 동안 대기
+0.13초 동안 대기
+0.86초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949732?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949732?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 주행가능거리 400이면 충분하다 생각했는데
+  닉네임: 바바야I ID4I경납
+  작성시간: 2026.01.24. 09:53
+  조회수: 조회 1,982
+0.49초 동안 대기
+0.58초 동안 대기
+0.27초 동안 대기
+0.05초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.03초 동안 대기
+  작성자 레벨: 준회원
+0.54초 동안 대기
+0.17초 동안 대기
+0.13초 동안 대기
+0.42초 동안 대기
+0.39초 동안 대기
+0.14초 동안 대기
+0.14초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.94초 동안 대기
+추출된 닉네임: tsrey
+추출 성공! ID: tsrey
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949732?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.88초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.8초 대기...
+
+[120번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.42초 동안 대기
+
+[120번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 119
+0.31초 동안 대기
+스크롤 완료
+0.54초 동안 대기
+  [Human Click] 실패: Locator.bounding_box: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".PopularArticleList .ListItem:not(.adtype_infinity)").nth(119).locator("a").first
+
+게시글 클릭 실패: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".PopularArticleList .ListItem:not(.adtype_infinity)").nth(119).locator("a").first
+
+------------------------------
+⏳ 다음 게시글까지 2.0초 대기...
+
+[121번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.50초 동안 대기
+
+[121번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 120
+0.38초 동안 대기
+스크롤 완료
+0.65초 동안 대기
+0.25초 동안 대기
+0.09초 동안 대기
+0.92초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.45초 동안 대기
+0.67초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949709?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949709?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 2년전 ev6 살때 견적서인데 지금봐도 혜자네요
+  닉네임: 피닉스파크I모YI부산I
+  작성시간: 2026.01.24. 09:23
+  조회수: 조회 1,931
+0.40초 동안 대기
+0.48초 동안 대기
+0.24초 동안 대기
+0.12초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.82초 동안 대기
+  작성자 레벨: 준회원
+0.55초 동안 대기
+0.16초 동안 대기
+0.07초 동안 대기
+0.51초 동안 대기
+0.41초 동안 대기
+0.29초 동안 대기
+0.08초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.52초 동안 대기
+추출된 닉네임: ksh25250
+추출 성공! ID: ksh25250
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949709?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.65초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.8초 대기...
+
+[122번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.99초 동안 대기
+
+[122번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 121
+0.39초 동안 대기
+스크롤 완료
+0.43초 동안 대기
+0.30초 동안 대기
+0.13초 동안 대기
+0.86초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.44초 동안 대기
+0.58초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949674?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949674?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 제주 ev4 렌트 후기
+  닉네임: 대학원생Iev3I서울
+  작성시간: 2026.01.24. 08:15
+  조회수: 조회 1,388
+0.37초 동안 대기
+0.48초 동안 대기
+0.29초 동안 대기
+0.11초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.80초 동안 대기
+  작성자 레벨: 준회원
+0.54초 동안 대기
+0.30초 동안 대기
+0.11초 동안 대기
+0.56초 동안 대기
+0.70초 동안 대기
+0.27초 동안 대기
+0.13초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.96초 동안 대기
+추출된 닉네임: soha_07
+추출 성공! ID: soha_07
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949674?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.62초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.6초 대기...
+
+[123번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.24초 동안 대기
+
+[123번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 122
+0.43초 동안 대기
+스크롤 완료
+0.65초 동안 대기
+0.26초 동안 대기
+0.06초 동안 대기
+0.96초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.38초 동안 대기
+0.78초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949668?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949668?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: [질문] EGV70 중고 가격 어떻게보세요?
+  닉네임: 부산띵똥
+  작성시간: 2026.01.24. 07:59
+  조회수: 조회 1,008
+0.43초 동안 대기
+0.54초 동안 대기
+0.14초 동안 대기
+0.07초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.78초 동안 대기
+  작성자 레벨: 준회원
+0.56초 동안 대기
+0.30초 동안 대기
+0.11초 동안 대기
+0.42초 동안 대기
+0.62초 동안 대기
+0.22초 동안 대기
+0.07초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.83초 동안 대기
+추출된 닉네임: ehdwk4399
+추출 성공! ID: ehdwk4399
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949668?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.97초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.3초 대기...
+
+[124번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.80초 동안 대기
+
+[124번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 123
+0.36초 동안 대기
+스크롤 완료
+0.65초 동안 대기
+0.26초 동안 대기
+0.06초 동안 대기
+0.78초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.32초 동안 대기
+0.97초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949649?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949649?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: EV3 / EV6 고민입니다.
+  닉네임: 낚찌낚찌
+  작성시간: 2026.01.24. 07:15
+  조회수: 조회 1,409
+0.39초 동안 대기
+0.52초 동안 대기
+0.25초 동안 대기
+0.12초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.14초 동안 대기
+  작성자 레벨: 준회원
+0.40초 동안 대기
+0.29초 동안 대기
+0.09초 동안 대기
+0.42초 동안 대기
+0.64초 동안 대기
+0.27초 동안 대기
+0.12초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.85초 동안 대기
+추출된 닉네임: sw6318
+추출 성공! ID: sw6318
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949649?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.75초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 3.0초 대기...
+
+[125번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.81초 동안 대기
+
+[125번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 124
+0.45초 동안 대기
+스크롤 완료
+0.31초 동안 대기
+0.26초 동안 대기
+0.14초 동안 대기
+0.78초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.35초 동안 대기
+0.73초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949635?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949635?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 2025 ev4 vs 2026 ev4 달라진점
+  닉네임: 이비뽀Iev4I제천
+  작성시간: 2026.01.24. 04:48
+  조회수: 조회 9,621
+0.26초 동안 대기
+0.31초 동안 대기
+0.24초 동안 대기
+0.12초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.11초 동안 대기
+  작성자 레벨: 신입
+0.41초 동안 대기
+0.11초 동안 대기
+0.06초 동안 대기
+0.56초 동안 대기
+0.59초 동안 대기
+0.15초 동안 대기
+0.12초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.82초 동안 대기
+추출된 닉네임: dungfly918
+추출 성공! ID: dungfly918
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949635?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.89초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.9초 대기...
+
+[126번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.03초 동안 대기
+
+[126번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 125
+0.44초 동안 대기
+스크롤 완료
+0.46초 동안 대기
+0.18초 동안 대기
+0.14초 동안 대기
+0.78초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.36초 동안 대기
+0.56초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949628?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949628?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 300할인 좋네요 전환지원금도~!!!
+  닉네임: 슈퍼소닉Iev6I청주
+  작성시간: 2026.01.24. 03:34
+  조회수: 조회 1,328
+0.24초 동안 대기
+0.50초 동안 대기
+0.20초 동안 대기
+0.08초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.45초 동안 대기
+  작성자 레벨: 신입
+0.67초 동안 대기
+0.28초 동안 대기
+0.14초 동안 대기
+0.41초 동안 대기
+0.39초 동안 대기
+0.14초 동안 대기
+0.14초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.58초 동안 대기
+추출된 닉네임: chk8324
+추출 성공! ID: chk8324
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949628?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.69초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.5초 대기...
+
+[127번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.95초 동안 대기
+
+[127번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 126
+0.45초 동안 대기
+스크롤 완료
+0.50초 동안 대기
+0.10초 동안 대기
+0.08초 동안 대기
+0.70초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949617?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949617?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 요즘 전기중고차들 매물이 금방나가네요
+  닉네임: 짱구이마I광주
+  작성시간: 2026.01.24. 02:26
+  조회수: 조회 1,144
+0.32초 동안 대기
+0.48초 동안 대기
+0.19초 동안 대기
+0.11초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.07초 동안 대기
+  작성자 레벨: 준회원
+0.51초 동안 대기
+0.18초 동안 대기
+0.10초 동안 대기
+0.40초 동안 대기
+0.60초 동안 대기
+0.11초 동안 대기
+0.08초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.97초 동안 대기
+추출된 닉네임: ddr5424
+추출 성공! ID: ddr5424
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949617?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.66초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.3초 대기...
+
+[128번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.51초 동안 대기
+
+[128번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 127
+0.48초 동안 대기
+스크롤 완료
+0.62초 동안 대기
+0.20초 동안 대기
+0.14초 동안 대기
+0.59초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.37초 동안 대기
+0.52초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949603?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949603?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 산지 2주만에 사고ㅠ
+  닉네임: 파란우비I오닉5I서울
+  작성시간: 2026.01.24. 01:22
+  조회수: 조회 1,148
+0.32초 동안 대기
+0.54초 동안 대기
+0.18초 동안 대기
+0.05초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.55초 동안 대기
+  작성자 레벨: 준회원
+0.53초 동안 대기
+0.25초 동안 대기
+0.09초 동안 대기
+0.31초 동안 대기
+0.48초 동안 대기
+0.11초 동안 대기
+0.07초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.96초 동안 대기
+추출된 닉네임: dl5508081
+추출 성공! ID: dl5508081
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949603?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.98초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.5초 대기...
+
+[129번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.11초 동안 대기
+
+[129번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 128
+0.33초 동안 대기
+스크롤 완료
+0.59초 동안 대기
+0.15초 동안 대기
+0.07초 동안 대기
+0.69초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.34초 동안 대기
+0.95초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949597?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949597?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 기름값은 그대로. 충전비는 50%인상
+  닉네임: 암세아린빠더l경주
+  작성시간: 2026.01.24. 01:06
+  조회수: 조회 1,409
+0.20초 동안 대기
+0.58초 동안 대기
+0.14초 동안 대기
+0.10초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.10초 동안 대기
+  작성자 레벨: 준회원
+0.44초 동안 대기
+0.21초 동안 대기
+0.14초 동안 대기
+0.40초 동안 대기
+0.34초 동안 대기
+0.11초 동안 대기
+0.11초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.51초 동안 대기
+추출된 닉네임: tjfsnow
+추출 성공! ID: tjfsnow
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949597?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.90초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.5초 대기...
+
+[130번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.11초 동안 대기
+
+[130번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 129
+0.49초 동안 대기
+스크롤 완료
+0.64초 동안 대기
+0.12초 동안 대기
+0.12초 동안 대기
+0.53초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.41초 동안 대기
+0.92초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949582?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949582?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 현대 EV 부담다운 유예할부에 대해서 설명 드립니다.
+  닉네임: 마비I아5I전북
+  작성시간: 2026.01.24. 00:05
+  조회수: 조회 3,327
+0.48초 동안 대기
+0.49초 동안 대기
+0.12초 동안 대기
+0.10초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.33초 동안 대기
+  작성자 레벨: 준회원
+0.64초 동안 대기
+0.20초 동안 대기
+0.12초 동안 대기
+0.52초 동안 대기
+0.48초 동안 대기
+0.30초 동안 대기
+0.12초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.75초 동안 대기
+추출된 닉네임: ihrnini
+추출 성공! ID: ihrnini
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949582?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.56초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.2초 대기...
+
+[131번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.15초 동안 대기
+
+[131번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 130
+0.34초 동안 대기
+스크롤 완료
+0.68초 동안 대기
+0.29초 동안 대기
+0.12초 동안 대기
+0.66초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.32초 동안 대기
+0.82초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949510?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949510?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: EV5 할인재고 잡았습니다.
+  닉네임: 야채배달
+  작성시간: 2026.01.23. 22:18
+  조회수: 조회 4,704
+0.24초 동안 대기
+0.54초 동안 대기
+0.23초 동안 대기
+0.06초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.55초 동안 대기
+  작성자 레벨: 준회원
+0.64초 동안 대기
+0.26초 동안 대기
+0.06초 동안 대기
+0.35초 동안 대기
+0.62초 동안 대기
+0.19초 동안 대기
+0.06초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.75초 동안 대기
+추출된 닉네임: ebever
+추출 성공! ID: ebever
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949510?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.75초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.2초 대기...
+
+[132번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.55초 동안 대기
+
+[132번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 131
+0.41초 동안 대기
+스크롤 완료
+0.49초 동안 대기
+0.26초 동안 대기
+0.09초 동안 대기
+0.54초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.39초 동안 대기
+0.88초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949293?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949293?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 요즘 여러가지로 좋아지는군요.~
+  닉네임: 가을하늘li5I경기
+  작성시간: 2026.01.23. 17:23
+  조회수: 조회 1,756
+0.37초 동안 대기
+0.38초 동안 대기
+0.25초 동안 대기
+0.08초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.05초 동안 대기
+  작성자 레벨: 준회원
+0.36초 동안 대기
+0.22초 동안 대기
+0.10초 동안 대기
+0.49초 동안 대기
+0.63초 동안 대기
+0.28초 동안 대기
+0.10초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.53초 동안 대기
+추출된 닉네임: kws0327
+추출 성공! ID: kws0327
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949293?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.83초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 1.1초 대기...
+
+[133번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.74초 동안 대기
+
+[133번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 132
+0.49초 동안 대기
+스크롤 완료
+0.38초 동안 대기
+0.24초 동안 대기
+0.06초 동안 대기
+0.62초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.39초 동안 대기
+0.75초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949224?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949224?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: EV5가 욕을 엄청 먹고 있는데
+  닉네임: 해루비I경기
+  작성시간: 2026.01.23. 16:21
+  조회수: 조회 2,028
+0.49초 동안 대기
+0.34초 동안 대기
+0.14초 동안 대기
+0.13초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.83초 동안 대기
+  작성자 레벨: 준회원
+0.39초 동안 대기
+0.19초 동안 대기
+0.15초 동안 대기
+0.39초 동안 대기
+0.45초 동안 대기
+0.19초 동안 대기
+0.09초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.91초 동안 대기
+추출된 닉네임: rayman8909
+추출 성공! ID: rayman8909
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949224?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.84초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.3초 대기...
+
+[134번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.30초 동안 대기
+
+[134번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 133
+0.33초 동안 대기
+스크롤 완료
+0.67초 동안 대기
+0.15초 동안 대기
+0.14초 동안 대기
+0.66초 동안 대기
+  [WARNING] URL 변경 안됨, 재시도 1/3...
+0.45초 동안 대기
+0.59초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949209?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949209?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 경남분들.. 보조금 폭망인디 그래도 다들 전기차 구매하십니까?
+  닉네임: 손발을두잇I대구
+  작성시간: 2026.01.23. 16:07
+  조회수: 조회 2,120
+0.45초 동안 대기
+0.51초 동안 대기
+0.13초 동안 대기
+0.09초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.77초 동안 대기
+  작성자 레벨: 준회원
+0.45초 동안 대기
+0.27초 동안 대기
+0.07초 동안 대기
+0.42초 동안 대기
+0.54초 동안 대기
+0.27초 동안 대기
+0.15초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.84초 동안 대기
+추출된 닉네임: younigi
+추출 성공! ID: younigi
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949209?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.75초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+⏳ 다음 게시글까지 2.6초 대기...
+
+[135번째 게시글 처리 중]
+siblingContent에서 다음 게시글 찾는 중...
+다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도
+1.67초 동안 대기
+
+[135번째 게시글 처리 중]
+현재 로드된 게시글 수: 223, 필요한 인덱스: 134
+0.39초 동안 대기
+스크롤 완료
+0.33초 동안 대기
+0.25초 동안 대기
+0.09초 동안 대기
+0.70초 동안 대기
+게시글로 이동했습니다.
+  [DEBUG] 최종 URL: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949603?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  게시글 URL 저장: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949603?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+  제목: 산지 2주만에 사고ㅠ
+  닉네임: 파란우비I오닉5I서울
+  작성시간: 2026.01.24. 01:22
+  조회수: 조회 1,149
+0.22초 동안 대기
+0.31초 동안 대기
+0.10초 동안 대기
+0.07초 동안 대기
+작성자 프로필을 클릭했습니다.
+1.35초 동안 대기
+  작성자 레벨: 준회원
+0.34초 동안 대기
+0.29초 동안 대기
+0.07초 동안 대기
+0.42초 동안 대기
+0.61초 동안 대기
+0.28초 동안 대기
+0.06초 동안 대기
+쪽지 보내기 페이지로 이동합니다.
+0.61초 동안 대기
+추출된 닉네임: dl5508081
+추출 성공! ID: dl5508081
+  게시글로 복귀: https://m.cafe.naver.com/ca-fe/web/cafes/21771803/articles/1949603?fromList=true&fromPopular=true&tc=cafe_home_popular_articles
+0.78초 동안 대기
+  게시글 복귀 완료!
+------------------------------
+ collected_data_menu21771803_worker3.csv 파일에 45개 저장 (덮어씌움)되었습니다.
+
+==================================================
+✅ 배치 1 완료! (수집: 45개)
+   소요 시간: 17분 42.9초
+   게시글당 평균: 23.6초
+==================================================
+
+==================================================
+🎉 모든 작업 완료!
+   처리 범위: 90 ~ 134
+   총 배치: 1개
+==================================================

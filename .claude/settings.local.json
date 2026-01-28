@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: 병렬 실행 및 백그라운드 모드 지원\n\n- 환경변수로 START, END, WORKER 범위 설정 가능\n- 워커별 CSV 파일 분리 저장\n- 무한 루프 방지 \\(20회 연속 변화 없으면 종료\\)\n- headless=True로 백그라운드 실행\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit --no-gpg-sign -m \"$\\(cat <<''EOF''\nfeat: 병렬 실행 및 백그라운드 모드 지원\n\n- 환경변수로 START, END, WORKER 범위 설정 가능\n- 워커별 CSV 파일 분리 저장\n- 무한 루프 방지 \\(20회 연속 변화 없으면 종료\\)\n- headless=True로 백그라운드 실행\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
