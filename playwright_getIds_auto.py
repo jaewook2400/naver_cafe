@@ -41,7 +41,7 @@ def human_click(page, locator):
 
 TARGET_URL = "https://www.naver.com"
 AUTH_FILE = "auth.json"
-TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803?tab=popular"
+TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803/menus/66"
 
 # 환경변수로 범위 설정 (기본값: 0-100)
 START_INDEX = int(os.environ.get("START", 0))
@@ -51,9 +51,11 @@ WORKER_ID = os.environ.get("WORKER", "0")
 BATCH_SIZE = 100
 MIN_BATCH_WAIT = 0
 MAX_BATCH_WAIT = 5
-# URL에서 카페 ID 추출 (cafes/ 뒤의 숫자)
-MENU_ID = TARGET_CAFE_MENU_URL.split("cafes/")[1].split("?")[0]
-CSV_FILENAME = f"collected_data_menu{MENU_ID}_worker{WORKER_ID}.csv"
+# URL에서 카페 ID와 메뉴 ID 추출
+url_parts = TARGET_CAFE_MENU_URL.split("cafes/")[1].split("/")
+CAFE_ID = url_parts[0]
+MENU_ID = url_parts[2] if len(url_parts) > 2 else "all"
+CSV_FILENAME = f"collected_data_cafe{CAFE_ID}_menu{MENU_ID}_worker{WORKER_ID}.csv"
 
 print(f"[Worker {WORKER_ID}] 범위: {START_INDEX} ~ {END_INDEX}, 저장: {CSV_FILENAME}")
 
@@ -152,15 +154,15 @@ def process_post(page, index, is_first_post=True):
     try:
         if is_first_post:
             # 첫번째 게시물: 목록에서 스크롤하여 찾기
-            # 게시글 목록 로딩 대기
+            # 게시글 목록 로딩 대기 (메뉴 페이지용)
             try:
-                page.wait_for_selector(".PopularArticleList .ListItem", timeout=5000)
+                page.wait_for_selector(".ArticleList .ListItem", timeout=5000)
             except Exception:
                 print("게시글 목록을 찾을 수 없습니다.")
                 return None
 
-            # 리스트 요소 다시 찾기 (광고 게시글 제외)
-            post_selector = ".PopularArticleList .ListItem:not(.adtype_infinity)"
+            # 리스트 요소 다시 찾기 (광고 게시글 제외) - 메뉴 페이지용
+            post_selector = ".ArticleList .ListItem:not(.adtype_infinity)"
 
             # 해당 인덱스의 게시글이 로드될 때까지 스크롤
             prev_count = 0
@@ -224,7 +226,7 @@ def process_post(page, index, is_first_post=True):
             retry_count = 0
             max_retries = 3
 
-            while current_url == url_before_click or "tab=popular" in current_url:
+            while current_url == url_before_click or "/menus/" in current_url:
                 retry_count += 1
                 if retry_count > max_retries:
                     print(f"  [WARNING] {max_retries}회 재시도 후에도 게시글 이동 실패")
@@ -295,7 +297,7 @@ def process_post(page, index, is_first_post=True):
                 retry_count = 0
                 max_retries = 2
 
-                while current_url == url_before_click or "tab=popular" in current_url:
+                while current_url == url_before_click or "/menus/" in current_url:
                     retry_count += 1
                     if retry_count > max_retries:
                         print(f"  [WARNING] 다음 게시글 이동 실패, 목록에서 재시도")
@@ -330,7 +332,7 @@ def process_post(page, index, is_first_post=True):
         print(f"  게시글 URL 저장: {post_url}")
 
         # URL 유효성 검사 - 목록 URL이면 스킵
-        if "tab=popular" in post_url or post_url == TARGET_CAFE_MENU_URL:
+        if "/menus/" in post_url or post_url == TARGET_CAFE_MENU_URL:
             print("  [ERROR] 게시글 페이지가 아닌 목록 페이지임 -> 스킵")
             return None
 
