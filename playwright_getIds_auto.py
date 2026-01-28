@@ -50,6 +50,7 @@ MIN_BATCH_WAIT = 0
 MAX_BATCH_WAIT = 5
 # URL에서 카페 ID 추출 (cafes/ 뒤의 숫자)
 MENU_ID = TARGET_CAFE_MENU_URL.split("cafes/")[1].split("?")[0]
+CSV_FILENAME = f"collected_data_menu{MENU_ID}.csv"
 
 
 def extract_naver_id(html_content):
@@ -327,9 +328,6 @@ def process_post(page, index, is_first_post=True):
         print(f"  게시글 복귀 실패: {e}")
 
     return post_info
-
-
-CSV_FILENAME = f"{MENU_ID}_collected_data.csv"
 
 
 def save_batch_to_csv(collected_data, batch_start, batch_end):
