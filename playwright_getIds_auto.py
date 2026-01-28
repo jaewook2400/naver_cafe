@@ -41,7 +41,7 @@ def human_click(page, locator):
 
 TARGET_URL = "https://www.naver.com"
 AUTH_FILE = "auth.json"
-TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803/menus/66"
+TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803/menus/616"
 
 # 환경변수로 범위 설정 (기본값: 0-100)
 START_INDEX = int(os.environ.get("START", 0))
