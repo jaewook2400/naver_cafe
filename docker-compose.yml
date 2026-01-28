@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  # 단일 워커 실행용
+  crawler:
+    build: .
+    volumes:
+      - ./auth.json:/app/auth.json:ro
+      - ./output:/app/output
+    environment:
+      - START=${START:-0}
+      - END=${END:-100}
+      - WORKER=${WORKER:-1}
+
+  # 여러 워커 병렬 실행용 (예시)
+  worker1:
+    build: .
+    profiles: ["parallel"]
+    volumes:
+      - ./auth.json:/app/auth.json:ro
+      - ./output:/app/output
+    environment:
+      - START=0
+      - END=500
+      - WORKER=1
+
+  worker2:
+    build: .
+    profiles: ["parallel"]
+    volumes:
+      - ./auth.json:/app/auth.json:ro
+      - ./output:/app/output
+    environment:
+      - START=500
+      - END=1000
+      - WORKER=2
+
+  worker3:
+    build: .
+    profiles: ["parallel"]
+    volumes:
+      - ./auth.json:/app/auth.json:ro
+      - ./output:/app/output
+    environment:
+      - START=1000
+      - END=1500
+      - WORKER=3

@@ -1,0 +1,66 @@
+name: Naver Cafe Crawler
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: '시작 인덱스'
+        required: true
+        default: '0'
+      end:
+        description: '종료 인덱스'
+        required: true
+        default: '500'
+      worker:
+        description: '워커 ID'
+        required: true
+        default: '1'
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350  # 약 6시간
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright playwright-stealth
+          playwright install chromium
+          playwright install-deps
+
+      - name: Restore auth.json from secrets
+        run: |
+          echo "${{ secrets.AUTH_JSON }}" | base64 -d > auth.json
+
+      - name: Run crawler
+        env:
+          START: ${{ github.event.inputs.start }}
+          END: ${{ github.event.inputs.end }}
+          WORKER: ${{ github.event.inputs.worker }}
+        run: |
+          python playwright_getIds_auto.py
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crawler-results-worker${{ github.event.inputs.worker }}
+          path: "*.csv"
+          retention-days: 30
+
+      - name: Commit results to repo
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add *.csv || true
+          git diff --staged --quiet || git commit -m "Add crawler results worker${{ github.event.inputs.worker }} (${{ github.event.inputs.start }}-${{ github.event.inputs.end }})"
+          git push || true

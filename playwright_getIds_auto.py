@@ -55,7 +55,10 @@ MAX_BATCH_WAIT = 5
 url_parts = TARGET_CAFE_MENU_URL.split("cafes/")[1].split("/")
 CAFE_ID = url_parts[0]
 MENU_ID = url_parts[2] if len(url_parts) > 2 else "all"
-CSV_FILENAME = f"collected_data_cafe{CAFE_ID}_menu{MENU_ID}_worker{WORKER_ID}.csv"
+# Docker 환경에서는 output 폴더 사용, 로컬에서는 현재 디렉토리 사용
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR", ".")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+CSV_FILENAME = os.path.join(OUTPUT_DIR, f"collected_data_cafe{CAFE_ID}_menu{MENU_ID}_worker{WORKER_ID}.csv")
 
 print(f"[Worker {WORKER_ID}] 범위: {START_INDEX} ~ {END_INDEX}, 저장: {CSV_FILENAME}")
 
