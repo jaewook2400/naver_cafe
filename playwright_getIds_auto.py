@@ -43,8 +43,8 @@ TARGET_URL = "https://www.naver.com"
 AUTH_FILE = "auth.json"
 TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803?tab=popular"
 
-START_INDEX = 0
-END_INDEX = 500
+START_INDEX = 100
+END_INDEX = 199
 BATCH_SIZE = 100
 MIN_BATCH_WAIT = 0
 MAX_BATCH_WAIT = 5
@@ -149,7 +149,7 @@ def process_post(page, index, is_first_post=True):
             # 첫번째 게시물: 목록에서 스크롤하여 찾기
             # 게시글 목록 로딩 대기
             try:
-                page.wait_for_selector(".PopularArticleList .ListItem", timeout=10000)
+                page.wait_for_selector(".PopularArticleList .ListItem", timeout=5000)
             except Exception:
                 print("게시글 목록을 찾을 수 없습니다.")
                 return None
@@ -190,14 +190,54 @@ def process_post(page, index, is_first_post=True):
             random_sleep(0.3, 0.5)
 
             print("스크롤 완료")
-            random_sleep(0.2, 0.4)
+
+            # 클릭 전 현재 URL 저장
+            url_before_click = page.url
 
             target_link = post_item.locator("a").first
             human_click(page, target_link)
 
             page.wait_for_load_state("domcontentloaded")
-            print("게시글로 이동했습니다.")
             random_sleep(0.5, 1)
+
+            # URL 변경 확인 및 게시글 페이지 검증
+            current_url = page.url
+            retry_count = 0
+            max_retries = 3
+
+            while current_url == url_before_click or "tab=popular" in current_url:
+                retry_count += 1
+                if retry_count > max_retries:
+                    print(f"  [WARNING] {max_retries}회 재시도 후에도 게시글 이동 실패")
+                    break
+
+                print(f"  [WARNING] URL 변경 안됨, 재시도 {retry_count}/{max_retries}...")
+
+                # 게시글 다시 찾아서 클릭
+                post_item = page.locator(post_selector).nth(index)
+                post_item.scroll_into_view_if_needed()
+                random_sleep(0.3, 0.5)
+
+                target_link = post_item.locator("a").first
+                try:
+                    # expect_navigation으로 명시적 네비게이션 대기
+                    with page.expect_navigation(timeout=10000):
+                        target_link.click()
+                except Exception as nav_err:
+                    print(f"  [WARNING] 네비게이션 대기 실패: {nav_err}")
+
+                page.wait_for_load_state("domcontentloaded")
+                random_sleep(0.5, 1)
+                current_url = page.url
+
+            # 게시글 페이지 제목 요소 로딩 대기
+            try:
+                page.wait_for_selector(".tit", timeout=5000)
+                print("게시글로 이동했습니다.")
+            except Exception:
+                print("  [WARNING] 게시글 제목 요소를 찾을 수 없음")
+
+            print(f"  [DEBUG] 최종 URL: {current_url}")
         else:
             # 두번째 게시물부터: siblingContent에서 다음 게시글 클릭
             print("siblingContent에서 다음 게시글 찾는 중...")
@@ -219,22 +259,45 @@ def process_post(page, index, is_first_post=True):
                 next_post = all_items.nth(now_index + 1).locator("a").first
 
             if next_post and next_post.is_visible():
-                current_url = page.url
+                url_before_click = page.url
 
                 # 클릭과 동시에 네비게이션 대기
-                with page.expect_navigation(timeout=10000):
-                    next_post.click()
+                try:
+                    with page.expect_navigation(timeout=10000):
+                        next_post.click()
+                except Exception as nav_err:
+                    print(f"  [WARNING] 네비게이션 대기 실패: {nav_err}")
 
                 page.wait_for_load_state("domcontentloaded")
-                new_url = page.url
-
-                if current_url == new_url:
-                    print("[WARNING] URL이 변경되지 않음! 직접 클릭 시도...")
-                    next_post.click()
-                    page.wait_for_timeout(1000)
-
-                print("다음 게시글로 이동했습니다.")
                 random_sleep(0.5, 1)
+                current_url = page.url
+
+                # URL 변경 및 유효성 검증
+                retry_count = 0
+                max_retries = 2
+
+                while current_url == url_before_click or "tab=popular" in current_url:
+                    retry_count += 1
+                    if retry_count > max_retries:
+                        print(f"  [WARNING] 다음 게시글 이동 실패, 목록에서 재시도")
+                        page.goto(TARGET_CAFE_MENU_URL)
+                        page.wait_for_load_state("domcontentloaded")
+                        random_sleep(1, 2)
+                        return process_post(page, index, is_first_post=True)
+
+                    print(f"  [WARNING] URL 변경 안됨, 재시도 {retry_count}/{max_retries}...")
+                    next_post.click()
+                    page.wait_for_timeout(1500)
+                    current_url = page.url
+
+                # 게시글 페이지 제목 요소 로딩 대기
+                try:
+                    page.wait_for_selector(".tit", timeout=5000)
+                    print("다음 게시글로 이동했습니다.")
+                except Exception:
+                    print("  [WARNING] 게시글 제목 요소를 찾을 수 없음")
+
+                print(f"  [DEBUG] 최종 URL: {current_url}")
             else:
                 print("다음 게시글을 찾을 수 없음, 목록으로 복귀하여 재시도")
                 page.goto(TARGET_CAFE_MENU_URL)
@@ -246,6 +309,11 @@ def process_post(page, index, is_first_post=True):
         # 게시글 URL 저장 (나중에 복귀용)
         post_url = page.url
         print(f"  게시글 URL 저장: {post_url}")
+
+        # URL 유효성 검사 - 목록 URL이면 스킵
+        if "tab=popular" in post_url or post_url == TARGET_CAFE_MENU_URL:
+            print("  [ERROR] 게시글 페이지가 아닌 목록 페이지임 -> 스킵")
+            return None
 
         # 게시글 상세 페이지에서 정보 추출
         extracted_info = extract_post_info(page)
@@ -302,7 +370,7 @@ def process_post(page, index, is_first_post=True):
             human_click(page, message_btn)
             print("쪽지 보내기 페이지로 이동합니다.")
 
-            page.wait_for_load_state("networkidle")
+            page.wait_for_selector("onload", timeout=5000)
             random_sleep(0.5, 1)
             # HTML에서 ID 추출
             html_content = page.content()
@@ -331,29 +399,38 @@ def process_post(page, index, is_first_post=True):
 
 
 def save_batch_to_csv(collected_data, batch_start, batch_end):
-    """배치 데이터를 CSV 파일에 누적 저장"""
+    """배치 데이터를 CSV 파일에 저장 (같은 번호는 덮어씌움)"""
     fieldnames = ["번호", "제목", "작성자_닉네임", "작성시간", "조회수", "네이버_ID", "등급"]
 
-    # 파일이 없으면 헤더 포함해서 생성, 있으면 append
-    file_exists = os.path.exists(CSV_FILENAME)
+    # 기존 데이터 읽기 (번호를 키로 하는 dict)
+    existing_data = {}
+    if os.path.exists(CSV_FILENAME):
+        with open(CSV_FILENAME, "r", encoding="utf-8-sig", newline="") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                existing_data[int(row["번호"])] = row
 
-    with open(CSV_FILENAME, "a", encoding="utf-8-sig", newline="") as f:
+    # 새 데이터로 업데이트 (같은 번호면 덮어씌움)
+    for idx, data in enumerate(collected_data):
+        row_num = batch_start + idx
+        existing_data[row_num] = {
+            "번호": row_num,
+            "제목": data.get("title", ""),
+            "작성자_닉네임": data.get("nickname", ""),
+            "작성시간": data.get("write_time", ""),
+            "조회수": data.get("view_count", ""),
+            "네이버_ID": data.get("naver_id", ""),
+            "등급": data.get("level", ""),
+        }
+
+    # 번호 순으로 정렬하여 전체 다시 쓰기
+    with open(CSV_FILENAME, "w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
-        if not file_exists:
-            writer.writeheader()
+        writer.writeheader()
+        for row_num in sorted(existing_data.keys()):
+            writer.writerow(existing_data[row_num])
 
-        for idx, data in enumerate(collected_data):
-            writer.writerow({
-                "번호": batch_start + idx,
-                "제목": data.get("title", ""),
-                "작성자_닉네임": data.get("nickname", ""),
-                "작성시간": data.get("write_time", ""),
-                "조회수": data.get("view_count", ""),
-                "네이버_ID": data.get("naver_id", ""),
-                "등급": data.get("level", ""),
-            })
-
-    print(f" {CSV_FILENAME} 파일에 {len(collected_data)}개 추가 저장되었습니다.")
+    print(f" {CSV_FILENAME} 파일에 {len(collected_data)}개 저장 (덮어씌움)되었습니다.")
     return CSV_FILENAME
 
 
@@ -378,6 +455,7 @@ def run_automation():
         print(f"   처리 범위: {batch_start} ~ {batch_end - 1}")
         print(f"{'=' * 50}")
 
+        batch_start_time = time.time()
         collected_data = []
 
         with sync_playwright() as p:
@@ -400,6 +478,7 @@ def run_automation():
             )
 
             page = context.new_page()
+            page.route("**/*.{png,jpg,jpeg,gif,webp,svg,woff,woff2}", lambda route: route.abort())
             # playwright-stealth 적용 (탐지 회피)
             Stealth().apply_stealth_sync(page)
 
@@ -464,7 +543,17 @@ def run_automation():
 
         # 데이터 저장
         save_batch_to_csv(collected_data, batch_start, batch_end)
+
+        batch_elapsed = time.time() - batch_start_time
+        batch_minutes = int(batch_elapsed // 60)
+        batch_seconds = batch_elapsed % 60
+        avg_per_post = batch_elapsed / len(collected_data) if collected_data else 0
+
+        print(f"\n{'=' * 50}")
         print(f"✅ 배치 {batch_num} 완료! (수집: {len(collected_data)}개)")
+        print(f"   소요 시간: {batch_minutes}분 {batch_seconds:.1f}초")
+        print(f"   게시글당 평균: {avg_per_post:.1f}초")
+        print(f"{'=' * 50}")
 
         # 다음 배치로 이동
         current_index = batch_end
