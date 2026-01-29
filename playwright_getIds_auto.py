@@ -51,10 +51,11 @@ WORKER_ID = os.environ.get("WORKER", "0")
 BATCH_SIZE = 100
 MIN_BATCH_WAIT = 0
 MAX_BATCH_WAIT = 5
-# URL에서 카페 ID와 메뉴 ID 추출
-url_parts = TARGET_CAFE_MENU_URL.split("cafes/")[1].split("/")
+# URL에서 카페 ID와 메뉴 ID 추출 (쿼리 파라미터 제거)
+url_without_query = TARGET_CAFE_MENU_URL.split("?")[0]
+url_parts = url_without_query.split("cafes/")[1].split("/")
 CAFE_ID = url_parts[0]
-MENU_ID = url_parts[2] if len(url_parts) > 2 else "all"
+MENU_ID = url_parts[2] if len(url_parts) > 2 else "popular"
 # Docker 환경에서는 output 폴더 사용, 로컬에서는 현재 디렉토리 사용
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", ".")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
