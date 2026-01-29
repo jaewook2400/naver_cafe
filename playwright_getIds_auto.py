@@ -41,7 +41,7 @@ def human_click(page, locator):
 
 TARGET_URL = "https://www.naver.com"
 AUTH_FILE = "auth.json"
-TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/21771803/menus/616"
+TARGET_CAFE_MENU_URL = "https://m.cafe.naver.com/ca-fe/web/cafes/10037204?tab=popular"
 
 # 환경변수로 범위 설정 (기본값: 0-100)
 START_INDEX = int(os.environ.get("START", 0))
@@ -159,13 +159,13 @@ def process_post(page, index, is_first_post=True):
             # 첫번째 게시물: 목록에서 스크롤하여 찾기
             # 게시글 목록 로딩 대기 (메뉴 페이지용)
             try:
-                page.wait_for_selector(".ArticleList .ListItem", timeout=5000)
+                page.wait_for_selector(".PopularArticleList .ListItem", timeout=5000)
             except Exception:
                 print("게시글 목록을 찾을 수 없습니다.")
                 return None
 
             # 리스트 요소 다시 찾기 (광고 게시글 제외) - 메뉴 페이지용
-            post_selector = ".ArticleList .ListItem:not(.adtype_infinity)"
+            post_selector = ".PopularArticleList .ListItem:not(.adtype_infinity)"
 
             # 해당 인덱스의 게시글이 로드될 때까지 스크롤
             prev_count = 0
